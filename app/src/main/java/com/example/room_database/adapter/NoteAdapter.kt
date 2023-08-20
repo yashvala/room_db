@@ -33,6 +33,7 @@ class NoteAdapter : RecyclerView.Adapter<NoteAdapter.ViewHolder>(){
         return differ.currentList.size
     }
 
+
     inner class ViewHolder : RecyclerView.ViewHolder(binding.root) {
 
         @SuppressLint("SetTextI18n")
